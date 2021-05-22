@@ -8,8 +8,7 @@
 NoteEditor类 编辑笔记内容的Activity
 TitleEditor类 编辑笔记标题的Activity
 NoteSearch类 编辑查询笔记内容的Activity
-NotePadProvider 这是笔记本应用的ContentProvider，也是整个应用的关键所在
-![image-20210522150107586](C:\Users\Godxin1\AppData\Roaming\Typora\typora-user-images\image-20210522150107586.png)
+NotePadProvider 这是笔记本应用的ContentProvider，也是整个应用的关键所在![image-20210522150107586](C:\Users\Godxin1\AppData\Roaming\Typora\typora-user-images\image-20210522150107586.png)
 
 主要的布局文件：
 note_editor.xml 笔记主页面布局
