@@ -28,117 +28,117 @@
 28
 29    <uses-sdk
 30        android:minSdkVersion="15"
-30-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml
+30-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml
 31        android:targetSdkVersion="30" />
-31-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml
+31-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml
 32
 33    <application
-33-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:25:5-117:19
+33-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:25:5-117:19
 34        android:debuggable="true"
 35        android:icon="@drawable/app_notes"
-35-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:25:18-52
+35-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:25:18-52
 36        android:label="@string/app_name"
-36-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:26:9-41
+36-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:26:9-41
 37        android:testOnly="true" >
 38        <provider
-38-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:28:9-32:20
+38-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:28:9-32:20
 39            android:name="com.example.android.notepad.NotePadProvider"
-39-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:28:19-49
+39-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:28:19-49
 40            android:authorities="com.google.provider.NotePad"
-40-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:29:13-62
+40-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:29:13-62
 41            android:exported="false" >
-41-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:30:13-37
+41-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:30:13-37
 42            <grant-uri-permission android:pathPattern=".*" />
-42-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:31:13-62
-42-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:31:35-59
+42-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:31:13-62
+42-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:31:35-59
 43        </provider>
 44
 45        <activity
-45-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:34:9-51:20
+45-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:34:9-51:20
 46            android:name="com.example.android.notepad.NotesList"
-46-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:34:19-43
+46-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:34:19-43
 47            android:label="@string/title_notes_list" >
-47-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:34:44-84
+47-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:34:44-84
 48            <intent-filter>
-48-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:35:13-38:29
+48-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:35:13-38:29
 49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:36:17-69
-49-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:36:25-66
+49-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:36:17-69
+49-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:36:25-66
 50
 51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:37:17-77
-51-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:37:27-74
+51-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:37:17-77
+51-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:37:27-74
 52            </intent-filter>
 53            <intent-filter>
-53-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:39:13-45:29
+53-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:39:13-45:29
 54                <action android:name="android.intent.action.VIEW" />
-54-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:40:17-69
-54-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:40:25-66
+54-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:40:17-69
+54-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:40:25-66
 55                <action android:name="android.intent.action.EDIT" />
-55-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:41:17-69
-55-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:41:25-66
+55-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:41:17-69
+55-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:41:25-66
 56                <action android:name="android.intent.action.PICK" />
-56-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:42:17-69
-56-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:42:25-66
+56-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:42:17-69
+56-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:42:25-66
 57
 58                <category android:name="android.intent.category.DEFAULT" />
-58-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:17-76
-58-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:27-73
+58-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:17-76
+58-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:27-73
 59
 60                <data android:mimeType="vnd.android.cursor.dir/vnd.google.note" />
-60-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:17-83
-60-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:23-80
+60-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:17-83
+60-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:23-80
 61            </intent-filter>
 62            <intent-filter>
-62-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:46:13-50:29
+62-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:46:13-50:29
 63                <action android:name="android.intent.action.GET_CONTENT" />
-63-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:47:17-76
-63-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:47:25-73
+63-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:47:17-76
+63-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:47:25-73
 64
 65                <category android:name="android.intent.category.DEFAULT" />
-65-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:17-76
-65-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:27-73
+65-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:17-76
+65-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:27-73
 66
 67                <data android:mimeType="vnd.android.cursor.item/vnd.google.note" />
-67-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:17-83
-67-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:23-80
+67-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:17-83
+67-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:23-80
 68            </intent-filter>
 69        </activity>
 70        <activity
-70-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:53:9-79:20
+70-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:53:9-79:20
 71            android:name="com.example.android.notepad.NoteEditor"
-71-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:53:19-44
+71-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:53:19-44
 72            android:configChanges="keyboardHidden|orientation"
-72-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:56:13-63
+72-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:56:13-63
 73            android:screenOrientation="sensor"
-73-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:55:13-47
+73-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:55:13-47
 74            android:theme="@android:style/Theme.Holo.Light" >
-74-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:54:13-60
+74-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:54:13-60
 75
 76            <!--
 77                 This filter says that we can view or edit the data of
 78                 a single note
 79            -->
 80            <intent-filter android:label="@string/resolve_edit" >
-80-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:60:13-66:29
-80-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:60:28-64
+80-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:60:13-66:29
+80-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:60:28-64
 81                <action android:name="android.intent.action.VIEW" />
-81-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:40:17-69
-81-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:40:25-66
+81-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:40:17-69
+81-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:40:25-66
 82                <action android:name="android.intent.action.EDIT" />
-82-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:41:17-69
-82-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:41:25-66
+82-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:41:17-69
+82-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:41:25-66
 83                <action android:name="com.android.notepad.action.EDIT_NOTE" />
-83-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:63:17-79
-83-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:63:25-76
+83-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:63:17-79
+83-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:63:25-76
 84
 85                <category android:name="android.intent.category.DEFAULT" />
-85-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:17-76
-85-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:27-73
+85-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:17-76
+85-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:27-73
 86
 87                <data android:mimeType="vnd.android.cursor.item/vnd.google.note" />
-87-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:17-83
-87-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:23-80
+87-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:17-83
+87-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:23-80
 88            </intent-filter>
 89
 90            <!--
@@ -148,35 +148,35 @@
 94                 the current contents of the clipboard.
 95            -->
 96            <intent-filter>
-96-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:72:13-77:29
+96-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:72:13-77:29
 97                <action android:name="android.intent.action.INSERT" />
-97-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:73:17-71
-97-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:73:25-68
+97-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:73:17-71
+97-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:73:25-68
 98                <action android:name="android.intent.action.PASTE" />
-98-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:74:17-70
-98-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:74:25-67
+98-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:74:17-70
+98-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:74:25-67
 99
 100                <category android:name="android.intent.category.DEFAULT" />
-100-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:17-76
-100-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:27-73
+100-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:17-76
+100-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:27-73
 101
 102                <data android:mimeType="vnd.android.cursor.dir/vnd.google.note" />
-102-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:17-83
-102-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:23-80
+102-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:17-83
+102-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:23-80
 103            </intent-filter>
 104        </activity>
 105        <activity
-105-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:81:9-106:20
+105-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:81:9-106:20
 106            android:name="com.example.android.notepad.TitleEditor"
-106-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:81:19-45
+106-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:81:19-45
 107            android:icon="@drawable/ic_menu_edit"
-107-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:83:13-50
+107-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:83:13-50
 108            android:label="@string/title_edit_title"
-108-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:82:13-53
+108-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:82:13-53
 109            android:theme="@android:style/Theme.Holo.Dialog"
-109-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:84:13-61
+109-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:84:13-61
 110            android:windowSoftInputMode="stateVisible" >
-110-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:85:13-55
+110-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:85:13-55
 111
 112            <!--
 113                 This activity implements an alternative action that can be
@@ -185,8 +185,8 @@
 116                 available as an alternative action for any note data.
 117            -->
 118            <intent-filter android:label="@string/resolve_title" >
-118-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:90:13-105:29
-118-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:90:28-65
+118-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:90:13-105:29
+118-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:90:28-65
 119
 120                <!--
 121                     This is the action we perform.  It is a custom action we
@@ -194,57 +194,57 @@
 123                     action since we are not a general note viewer/editor.
 124                -->
 125                <action android:name="com.android.notepad.action.EDIT_TITLE" />
-125-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:94:17-80
-125-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:94:25-77
+125-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:94:17-80
+125-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:94:25-77
 126                <!-- DEFAULT: execute if being directly invoked. -->
 127                <category android:name="android.intent.category.DEFAULT" />
-127-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:17-76
-127-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:27-73
+127-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:17-76
+127-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:27-73
 128                <!--
 129                     ALTERNATIVE: show as an alternative action when the user is
 130                     working with this type of data.
 131                -->
 132                <category android:name="android.intent.category.ALTERNATIVE" />
-132-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:99:17-80
-132-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:99:27-77
+132-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:99:17-80
+132-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:99:27-77
 133                <!--
 134                     SELECTED_ALTERNATIVE: show as an alternative action the user
 135                     can perform when selecting this type of data.
 136                -->
 137                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
-137-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:102:17-89
-137-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:102:27-86
+137-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:102:17-89
+137-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:102:27-86
 138                <!-- This is the data type we operate on. -->
 139                <data android:mimeType="vnd.android.cursor.item/vnd.google.note" />
-139-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:17-83
-139-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:44:23-80
+139-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:17-83
+139-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:44:23-80
 140            </intent-filter>
 141        </activity>
 142        <activity
-142-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:108:9-114:20
+142-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:108:9-114:20
 143            android:name="com.example.android.notepad.NotesLiveFolder"
-143-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:108:19-49
+143-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:108:19-49
 144            android:icon="@drawable/live_folder_notes"
-144-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:109:13-55
+144-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:109:13-55
 145            android:label="@string/live_folder_name" >
-145-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:108:50-90
+145-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:108:50-90
 146            <intent-filter>
-146-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:110:13-113:29
+146-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:110:13-113:29
 147                <action android:name="android.intent.action.CREATE_LIVE_FOLDER" />
-147-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:111:17-83
-147-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:111:25-80
+147-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:111:17-83
+147-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:111:25-80
 148
 149                <category android:name="android.intent.category.DEFAULT" />
-149-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:17-76
-149-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:43:27-73
+149-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:17-76
+149-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:43:27-73
 150            </intent-filter>
 151        </activity>
 152        <activity
-152-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:116:9-84
+152-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:116:9-84
 153            android:name="com.example.android.notepad.NoteSearch"
-153-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:116:19-45
+153-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:116:19-45
 154            android:label="@string/search_note" />
-154-->C:\Users\Godxin1\Desktop\NotePad-master2\app\src\main\AndroidManifest.xml:116:46-81
+154-->C:\Users\Godxin1\Desktop\git\NotePad\app\src\main\AndroidManifest.xml:116:46-81
 155    </application>
 156
 157</manifest>
