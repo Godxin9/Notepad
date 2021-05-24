@@ -10,7 +10,7 @@ TitleEditor类 编辑笔记标题的Activity
 NoteSearch类 编辑查询笔记内容的Activity
 NotePadProvider 这是笔记本应用的ContentProvider，也是整个应用的关键所在
 
-![image-20210522150056966](C:\Users\Godxin1\Desktop\git\NotePad\pictures\image-20210522150056966.png)
+![1](https://github.com/Godxin9/Notepad/blob/master/NotePad/pictures/image-20210522150056966.png)
 
 主要的布局文件：
 note_editor.xml 笔记主页面布局
@@ -18,7 +18,7 @@ note_search.xml 笔记内容查询布局
 notelist_item.xml 笔记主页面每个列表项布局
 title_editor.xml 修改笔记主题布局
 
-![image-20210522150210999](C:\Users\Godxin1\Desktop\git\NotePad\pictures\image-20210522150210999.png)
+![2](https://github.com/Godxin9/Notepad/blob/master/NotePad/pictures/image-20210522150210999.png)
 
 
 
@@ -29,7 +29,7 @@ editor_options_menu.xml 编辑笔记内容的菜单布局
 list_context_menu.xml 笔记内容编辑上下文菜单布局
 list_options_menu.xml 笔记主页面可选菜单布局
 
-![image-20210522150331321](C:\Users\Godxin1\Desktop\git\NotePad\pictures\image-20210522150331321.png)
+![3](https://github.com/Godxin9/Notepad/blob/master/NotePad/pictures/image-20210522150331321.png)
 
 ## 二：添加功能
 
@@ -90,7 +90,7 @@ list_options_menu.xml 笔记主页面可选菜单布局
 
 结果如下：
 
-![image-20210522151342078](C:\Users\Godxin1\Desktop\git\NotePad\pictures\image-20210522151342078.png)
+![5](https://github.com/Godxin9/Notepad/blob/master/NotePad/pictures/image-20210522151342078.png)
 
 ### 功能二：添加搜索功能
 
@@ -241,4 +241,4 @@ list_options_menu.xml 笔记主页面可选菜单布局
 
 6.结果如下
 
-![image-20210522151611109](C:\Users\Godxin1\Desktop\git\NotePad\pictures\image-20210522151611109.png)
+ ![4](https://github.com/Godxin9/Notepad/blob/master/NotePad/pictures/image-20210522151611109.png)
